@@ -35,3 +35,11 @@ wrapper{
     /* filter:drop-shadow(0 0 10px #333); */
     transition: 0.3s;
 }
+.blue{
+    color:blue;
+    font-weight: bolder;
+}
+.green{
+    color:green;
+    font-weight: bolder;
+}
