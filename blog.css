@@ -37,7 +37,7 @@ hr{
 .inner{
     grid-row-start: 1;
     grid-row-end: 4;
-    padding:0em 2em;
+    padding: 0em 2em;
 }
 ul,ol{
     list-style-position: inside;
@@ -60,6 +60,20 @@ button{
     border: 1px solid #0047AB;
 }
 .grey-btn{
-    color:gray;
-    border: 1px solid gray;
+    color:#36454F;
+    border: 1px solid #36454F;
+}
+
+.grey-btn:hover{
+    color:white;
+    background-color: #36454F;
+    cursor: pointer;
+}
+.blue-btn:hover{
+    color:white;
+    background-color: #0047AB;
+    cursor: pointer;
+}
+.About{
+    padding-right:2em;
 }

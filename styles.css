@@ -34,12 +34,15 @@ wrapper{
     transform: scale(1.05);
     /* filter:drop-shadow(0 0 10px #333); */
     transition: 0.3s;
+    cursor: pointer;
 }
 .blue{
-    color:blue;
+    color:#0047AB;
     font-weight: bolder;
+    margin-bottom: 10px;
 }
 .green{
-    color:green;
+    color:#088F8F;
     font-weight: bolder;
+    margin-bottom: 10px;
 }
