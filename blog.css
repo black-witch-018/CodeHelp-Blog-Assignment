@@ -37,11 +37,29 @@ hr{
 .inner{
     grid-row-start: 1;
     grid-row-end: 4;
-    padding:2em;
+    padding:0em 2em;
 }
 ul,ol{
     list-style-position: inside;
 }
 a{
     display:block;
+}
+button{
+    display:inline-block;
+    width:15%;
+    height:20%;
+    font-size: 1em;
+    margin:1em 2em;
+    background-color: white;
+    border-radius:20px;
+    padding:1em 1em;
+}
+.blue-btn{
+    color:#0047AB;
+    border: 1px solid #0047AB;
+}
+.grey-btn{
+    color:gray;
+    border: 1px solid gray;
 }
