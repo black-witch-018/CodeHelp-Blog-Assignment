@@ -17,3 +17,16 @@ wrapper{
 .under{
     text-decoration:underline;
 }
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-auto-flow: column;
+    gap:2em;
+    margin:1.5em 2em;
+}
+.card{
+    padding:1em;
+    box-shadow: 0 0 5px #333;
+    border-radius:0.3em;
+}
