@@ -1,0 +1,19 @@
+wrapper{
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    padding:1em 1.5em;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+.under{
+    text-decoration:underline;
+}
